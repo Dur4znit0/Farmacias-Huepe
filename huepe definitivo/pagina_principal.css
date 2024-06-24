@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*Estilo para el body*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0;
+}
+
+/*Estilo para el header*/
+
+.header {
+    background-image: linear-gradient(
+        rgba(67, 7, 136, 0.801),
+        rgba(67, 7, 136, 0.808)),
+        url(#);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 25vh;
+    display: flex;
+    align-items: center;
+}
+
+/*Estilo y posicionamiento del menu*/
+
+.menu {
+    position: absolute;
+    top: -25px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Estilo, tamaño y posicionamiento del logo*/
+
+.logo{
+    background-image: url();
+    color:#fffdfc91;
+    font-size: 25px;
+    font-weight: 800;
+    padding: auto;
+}
+
+.logo img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 0px;
+}
+
+/*Posicionamiento*/
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+/*Estilo y tamaño de menu */
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFDFC;
+    display: block;
+    font-weight: 600;
+}
+
+#menu{
+    display: none;
+}
+
+/*Tamaño icono*/
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+/*Posicion del header*/
+
+.header-content{
+    text-align: center;
+}
+
+/*Estilo para el h1 del header*/
+
+.header-content h1{
+    font-size: 55px;
+    line-height: 80px;
+    color: #fcf9fcfd;
+    text-transform: uppercase;
+    margin-bottom: -55px ;
+}
+
+/*Estilo de la seccion de informacion*/
+
+.Informacion {
+    padding: 100px o;
+    background-color: white;
+    position: relative;
+}
+
+/*posicion del texto de la seccion de informacion*/
+
+.Informacion-content{
+    text-align: center;
+}
+
+/*Estilo para el h2 de la seccion de informacion*/
+
+.Informacion-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: black;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+/*tamaño de seccion group*/
+
+.Informacion-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+/*tamaño */
+
+.Informacion-1{
+    padding: 20px;
+}
+
+.Informacion-1 img{
+    width: 200px;
+}
+
+/*Estilo y posicion de imagend de la seccion de informacion*/
+.Informacion-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/*tamaño y color del h3 de seccion de informcion*/
+
+.Informacion-1 h3{
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#final{
+    background-color: purple;
+    width: 100%;
+}
+
+/*Estilo de tamaño del foter*/
+
+#footer{
+    display: flex;
+    padding: 20px 10px;
+    display: inline-block;
+}
+
+/*tamaño y color de p*/
+
+p{
+    padding: 10px 5px ;
+    color: black;
+}
+
+/*Estilos footer*/
+
+#footer_1{
+    padding: 50px 0;
+    display: inline-block;
+    text-align: right;
+    font-size: 25px;
+}
+
+
+
+/*-------------------------------------------------Horarios----------------------------------------------------------------*/
+
+.services{
+    background-image: linear-gradient(
+    rgba(rgba(red)),
+    rgba(rgba(red))),
+    url(https://scontent.fyai3-1.fna.fbcdn.net/v/t39.30808-6/326327460_1494428114413952_7081405279443716996_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHzA13aKEkl2V5pstP9NllEdMdhU6vaPvB0x2FTq9o-8GYy9P_Tqr9uk24qYK1CHNjA-DTnV0e_oIAGGqn9FjAr&_nc_ohc=1m42hSONhccQ7kNvgFlCibc&_nc_zt=23&_nc_ht=scontent.fyai3-1.fna&oh=00_AYDB5419eCFJGN3dE8xEevhd4nuv7pbTakvIBT0EDKDCsA&oe=667F5D1A);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+
+/*Estilo y posicionamineto de services*/
+
+.services-1{
+    display: flex;
+}
+
+/*Estilo*/
+
+.services-2{
+    width: 50%;
+    padding: 80px 80px 80px 80px;
+    background-color: rgba(240, 248, 255, 0.055);
+    border-radius: 45px;
+}
+
+/* tamaño y posicion del mapa*/
+
+.mapa{
+    border-radius: 45px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+
+
+/*--------------------------------------------------salud y bienestar y conocenos-----------------------------------------------*/
+
+.services{
+    display: flex;
+}
+
+.general-1{
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: aliceblue;
+}
+
+/*Estilo y posicion de imagen*/
+
+.general-2 {
+    background-image: url(https://nosmagazine.cl/wp-content/uploads/2021/05/portada-huepe.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+/*Estilo y posicion de imagen*/
+
+.general-3 {
+    background-image: url(https://nosmagazine.cl/wp-content/uploads/2021/05/portada-huepe.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+/*posicion */
+
+.blog-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*tamaño */
+
+.blog-1{
+    padding: 15px 55px;
+}
+
+/*tamaño y estlo de imagen */
+
+.blog-1 img{
+    width: 250px;
+    border-radius: 15px;
+    border-bottom: 15px;
+}
+
+/*tamaño  y color*/
+
+.blog-1 h3 {
+    font-size: 25px;
+    color: rgba(28, 32, 28, 0.933) 1e;
+}
+
+
+
+/* Media query para hacer el contenido responsive */
+
+@media screen and (max-width: 991px) {
+
+    /*tamaño*/
+
+    .menu{
+        padding: 5px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #1f1e1e;
+        display: none;
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+    
+    .header{
+        min-height: 0vh;
+    }
+
+    /*tamaño*/
+
+    .header-content h1{
+        font-size: 35px;
+        line-height: 80px;
+        color: #F9FAFC;
+        text-transform: uppercase;
+        margin-bottom: 35px;
+    }
+
+    /*tamaño*/
+
+    .header-content{
+        padding: 100px 30px;
+    }
+
+    .header-content p {
+        padding: 0;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    /* */
+
+    .carousel-inner img {
+        width: 100%;
+    }
+
+    #footer img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .Boton_menu {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+
+    /* Estilos para el body */
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f3f3f3;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Estilos para el header */
+
+    #principal {
+        background-color: #fff;
+        padding: 10px;
+    }
+
+    #header {
+        width: 100%;
+    }
+
+    #botones_header {
+        width: 100%;
+    }
+
+    /* Estilos para el carousel */
+
+    #carouselExampleCaptions {
+        margin: 20px;
+    }
+
+    /* Estilos para los subtítulos */
+
+    #subtitulos {
+        color: #333;
+    }
+
+    /* Estilos para los datos */
+
+    #datos {
+        width: 100%;
+    }
+
+
+    /*tamaño */
+
+    .Informacion{
+        padding: 30px;
+    }
+
+    .Informacion-content h2 {
+        padding: 0;
+    }
+
+    .txt-p {
+        padding: 0;
+    }
+
+    /*posicion */
+
+    .Informacion-group{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .Informacion-img{
+        display: none;
+    }
+
+    /* Estilos para el footer */
+
+    #final {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+    }
+
+    /*tamaño*/
+
+    #footer {
+        width: 100%;
+    }
+
+    /*tamaño */
+
+    #footer_1 {
+        width: 100%;
+    }
+
+    /* Estilos para las imágenes en los datos */
+
+    #datos img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Estilos para las redes sociales en el footer */
+
+    #footer img {
+        margin-right: 10px;
+    }
+    
+}
